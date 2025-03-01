@@ -71,7 +71,7 @@
       "dosage": "Tablet",
       "strength": "500 mg",
       "company": "Pfizer",
-      "image_url": "https://example.com/images/zithromax.jpg"
+      "image_url": "https://www.orionlifes.com/wp-content/uploads/2020/08/azilife-500-1-scaled.jpg"
     },
     {
       "name": "Crisaborole",
@@ -80,7 +80,7 @@
       "dosage": "Ointment",
       "strength": "2%",
       "company": "Pfizer",
-      "image_url": "https://example.com/images/eucrisa.jpg"
+      "image_url": "https://medizenegypt.net/wp-content/uploads/2023/03/Borocris-15gm-Box-3d.jpg"
     },
     {
       "name": "Dapagliflozin",
@@ -89,25 +89,7 @@
       "dosage": "Tablet",
       "strength": "5, 10 mg",
       "company": "AstraZeneca",
-      "image_url": "https://example.com/images/forxiga.jpg"
-    },
-    {
-      "name": "Empagliflozin",
-      "category": "Diabetes Mellitus",
-      "brand": "Jardiance",
-      "dosage": "Tablet",
-      "strength": "10, 25 mg",
-      "company": "Boehringer Ingelheim",
-      "image_url": "https://example.com/images/jardiance.jpg"
-    },
-    {
-      "name": "Ezetimibe/Atorvastatin",
-      "category": "Hypercholesterolemia",
-      "brand": "Atozet",
-      "dosage": "Tablet",
-      "strength": "10/10 mg, 10/20 mg, 10/40 mg",
-      "company": "MSD",
-      "image_url": "https://example.com/images/atozet.jpg"
+      "image_url": "https://www.drugs.com/images/pills/custom/pill35511-1/dapagliflozin-propanediol.jpeg"
     },
     {
       "name": "Glimepiride",
@@ -116,7 +98,7 @@
       "dosage": "Tablet",
       "strength": "1, 2, 4 mg",
       "company": "Sanofi Aventis",
-      "image_url": "https://example.com/images/amaryl.jpg"
+      "image_url": "https://www.drugs.com/images/pills/fio/DRR03211/glimepiride.JPG"
     },
     {
       "name": "Hydrocortisone",
@@ -125,7 +107,7 @@
       "dosage": "Powder for injection",
       "strength": "500 mg",
       "company": "Abbott",
-      "image_url": "https://example.com/images/hydrocort.jpg"
+      "image_url": "https://www.drugs.com/images/pills/fio/VEN01400/hydrocortisone.JPG"
     },
     {
       "name": "Hydroxocobalamin",
@@ -134,7 +116,7 @@
       "dosage": "Solution for injection",
       "strength": "1mg/1ml",
       "company": "Merck",
-      "image_url": "https://example.com/images/cytobion.jpg"
+      "image_url": "https://www.cytoplan.co.uk/media/catalog/product/cache/ca6a73b49326d453d49cb5f28cf46160/1/0/1036_b12ashydroxycobalamin_main_1.jpg"
     },
     {
       "name": "Levocarnitine",
@@ -143,7 +125,7 @@
       "dosage": "Oral solution",
       "strength": "1g/10ml",
       "company": "Leadiant",
-      "image_url": "https://example.com/images/carnitor.jpg"
+      "image_url": "https://www.drugs.com/images/pills/fio/COR01601.JPG"
     },
     {
       "name": "Nebivolol",
@@ -152,7 +134,7 @@
       "dosage": "Tablet",
       "strength": "2.5, 5 mg",
       "company": "Menarini",
-      "image_url": "https://example.com/images/nebilet.jpg"
+      "image_url": "https://www.drugs.com/images/pills/custom/pill32831-1/nebivolol-hydrochloride.jpeg"
     },
     {
       "name": "Perindopril",
@@ -161,16 +143,16 @@
       "dosage": "Tablet",
       "strength": "5, 10 mg",
       "company": "Servier",
-      "image_url": "https://example.com/images/coversyl.jpg"
+      "image_url": "https://www.drugs.com/images/pills/custom/pill15820-1/perindopril-erbumine.gif"
     },
     {
-      "name": "Perindopril/Amlodipine",
+      "name": "Amlodipine",
       "category": "Antihypertensive",
       "brand": "Viacoram",
       "dosage": "Tablet",
       "strength": "5/5 mg, 5/10 mg, 10/10 mg",
       "company": "Servier",
-      "image_url": "https://example.com/images/viacoram.jpg"
+      "image_url": "https://www.drugs.com/images/pills/fio/UNI03970.JPG"
     },
     {
       "name": "Ticagrelor",
@@ -179,7 +161,7 @@
       "dosage": "Tablet",
       "strength": "60, 90 mg",
       "company": "AstraZeneca",
-      "image_url": "https://example.com/images/brilinta.jpg"
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF3zcedsp7kba9K9nq6_WLx8QoUdzHvaSTQA&s"
     },
     {
       "name": "Tolperisone",
@@ -188,25 +170,25 @@
       "dosage": "Tablet",
       "strength": "150 mg",
       "company": "Labatec",
-      "image_url": "https://example.com/images/mydocalm.jpg"
+      "image_url": "https://www.lifecareneuro.com/wp-content/uploads/2023/08/TOLDEP-150.jpg"
     },
     {
-      "name": "Valsartan/Sacubitril",
+      "name": "Valsartan",
       "category": "Chronic Heart Failure",
       "brand": "Entresto",
       "dosage": "Tablet",
       "strength": "50, 100, 200 mg",
       "company": "Novartis",
-      "image_url": "https://example.com/images/entresto.jpg"
+      "image_url": "https://www.drugs.com/images/pills/fio/SLC03690.JPG"
     },
       {
-        "name": "Valsartan/Amlodipine/HCTZ",
+        "name": "VAmlodipine",
         "category": "Antihypertensive",
         "brand": "Exforge",
         "dosage": "Tablet",
         "strength": "5/160/25 mg, 10/160/12.5 mg",
         "company": "Novartis",
-        "image_url": "https://example.com/images/exforge.jpg"
+        "image_url": "https://www.grxstatic.com/d4fuqqd5l3dbz/products/DrugItem_25452.JPG"
       },
       {
         "name": "Vancomycin",
@@ -215,7 +197,7 @@
         "dosage": "Powder for injection",
         "strength": "500, 1000 mg",
         "company": "Abbott",
-        "image_url": "https://example.com/images/vancomycin.jpg"
+        "image_url": "https://www.drugs.com/images/pills/fio/VIR31260/vancomycin-hydrochloride.JPG"
       },
       {
         "name": "Vitamin D3",
@@ -224,34 +206,25 @@
         "dosage": "Tablet",
         "strength": "5K, 10K, 50K mg",
         "company": "N.A",
-        "image_url": "https://example.com/images/vitamin-d3.jpg"
+        "image_url": "https://naturalmedicinenh.com/wp-content/uploads/2024/01/D3.jpg"
       },
       {
-        "name": "Paracetamol/Homatropine",
+        "name": "Paracetamol",
         "category": "Gastro-Intestinal",
         "brand": "Riabasam",
         "dosage": "Tablet",
         "strength": "350/4 mg",
         "company": "SDI",
-        "image_url": "https://example.com/images/riabasam.jpg"
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlAz8LAuzpdSXqN7F9PUhqEKKPgdf0ZipwwQ&s"
       },
       {
-        "name": "Chlordiazepoxide/Clidinium",
+        "name": "Chlordiazepoxide",
         "category": "Treat Stomach",
         "brand": "Librax",
         "dosage": "Tablet",
         "strength": "5/2.5 mg",
         "company": "Bausch Health, Canada INC.",
-        "image_url": "https://example.com/images/librax.jpg"
-      },
-      {
-        "name": "Empagliflozin/Metformin",
-        "category": "Diabetes Mellitus",
-        "brand": "Synjardy",
-        "dosage": "Tablet",
-        "strength": "12.5/800 mg, 5/800 mg, 12.5/1000 mg, 5/1000 mg",
-        "company": "Boehringer Ingel",
-        "image_url": "https://example.com/images/synjardy.jpg"
+        "image_url": "https://www.novarecoverycenter.com/wp-content/uploads/2018/10/librium-pills.jpg"
       },
       {
         "name": "Linagliptin",
@@ -260,70 +233,43 @@
         "dosage": "Tablet",
         "strength": "5 mg",
         "company": "Boehringer Ingel",
-        "image_url": "https://example.com/images/trajenta.jpg"
+        "image_url": "https://www.drugs.com/images/pills/nlm/005970140.jpg"
       },
       {
-        "name": "Empagliflozin/Linagliptin",
-        "category": "Diabetes Mellitus",
-        "brand": "Glyxambi",
-        "dosage": "Tablet",
-        "strength": "10/5 mg, 25/5 mg",
-        "company": "Boehringer Ingel",
-        "image_url": "https://example.com/images/glyxambi.jpg"
-      },
-      {
-        "name": "Ezetimibe/Rosuvastatin",
-        "category": "Hypercholesterolemia",
-        "brand": "N.A.",
-        "dosage": "Tablet",
-        "strength": "10/10 mg, 10/20 mg, 10/40 mg",
-        "company": "N.A.",
-        "image_url": "https://example.com/images/na.jpg"
-      },
-      {
-        "name": "Omeprazole/Sodium Bicarbonate",
+        "name": "Omeprazole",
         "category": "Anti-ulcer",
         "brand": "Zegerid",
         "dosage": "Capsule",
         "strength": "40/1100 mg",
         "company": "Valeant Pharmaceuticals North America LLC",
-        "image_url": "https://example.com/images/zegerid.jpg"
+        "image_url": "https://www.nextrx.com/wp-content/uploads/2023/08/IMG_9403-1024x1024.jpg"
       },
       {
-        "name": "Empagliflozin/Linagliptin XR",
+        "name": "Linagliptin XR",
         "category": "Diabetes Mellitus",
         "brand": "Glyxambi XR",
         "dosage": "Tablet",
         "strength": "10/5/1000 mg, 25/5/1000 mg",
         "company": "Boehringer Ingel",
-        "image_url": "https://example.com/images/glyxambi-xr.jpg"
+        "image_url": "https://ecommerce.genericartmedicine.com/upload/products/product-photo-188326332023113341.png"
       },
       {
-        "name": "Empagliflozin/Metformin XR",
+        "name": "Metformin XR",
         "category": "Diabetes Mellitus",
         "brand": "Synjardy XR",
         "dosage": "Tablet",
         "strength": "10/5/1000 mg, 25/5/1000 mg",
         "company": "Boehringer Ingel",
-        "image_url": "https://example.com/images/synjardy-xr.jpg"
+        "image_url": "https://www.grxstatic.com/d4fuqqd5l3dbz/products/tms/DrugItem_25214.JPG"
       },
       {
-        "name": "Linagliptin/Metformin XR",
-        "category": "Diabetes Mellitus",
-        "brand": "Jentadueto XR",
-        "dosage": "Tablet",
-        "strength": "10/5/1000 mg, 25/5/1000 mg",
-        "company": "Boehringer Ingel",
-        "image_url": "https://example.com/images/jentadueto-xr.jpg"
-      },
-      {
-        "name": "Empagliflozin/Linagliptin/Metformin XR",
+        "name": "Empagliflozin",
         "category": "Diabetes Mellitus",
         "brand": "Trijardy XR",
         "dosage": "Tablet",
         "strength": "10/5/1000 mg, 25/5/1000 mg",
         "company": "Boehringer Ingel",
-        "image_url": "https://example.com/images/trijardy-xr.jpg"
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3QDZedhdIou2Jeyv-UB5J2cpmLBH_VCncpQ&s"
       },
       {
         "name": "Bempedoic acid",
@@ -332,7 +278,7 @@
         "dosage": "Tablet",
         "strength": "180 mg",
         "company": "Daiichi Sankyo",
-        "image_url": "https://example.com/images/nilemdo.jpg"
+        "image_url": "https://www.dicardiology.com/sites/default/files/styles/content_feed_large_new/public/bempedoic%20acid_Nexletol_LDL_lowering_drug.jpg?itok=tgLWB1XU"
       },
       {
         "name": "Ezetimibe/Bempedoic acid",
@@ -341,7 +287,7 @@
         "dosage": "Tablet",
         "strength": "10/180 mg",
         "company": "N.A.",
-        "image_url": ""
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjJAvvpt1nKStMWT8wXKqEZDd1W70W3uD07A&s"
       }
     ]
   }
