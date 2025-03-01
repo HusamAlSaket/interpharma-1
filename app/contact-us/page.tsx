@@ -1,10 +1,66 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 
 const ContactUsPage = () => {
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    topic: "General Inquiry",
+    message: "",
+  });
+
+  const [loading, setLoading] = useState(false);
+  const [responseMessage, setResponseMessage] = useState("");
+
+  // Handle form input changes
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+    const { id, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [id]: value,
+    }));
+  };
+
+  // Handle form submission
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setLoading(true);
+    setResponseMessage("");
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await res.json();
+
+      if (res.ok) {
+        setResponseMessage("Your message has been sent successfully!");
+        setFormData({
+          firstName: "",
+          lastName: "",
+          email: "",
+          phone: "",
+          topic: "General Inquiry",
+          message: "",
+        });
+      } else {
+        setResponseMessage(data.message || "Failed to send message.");
+      }
+    } catch (error) {
+      setResponseMessage("An error occurred. Please try again.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
-    <section className="py-16 px-6 bg-gray-100">
+    <section className="py-16 px-6 bg-gradient-to-br from-orange-50 to-gray-100">
       <div className="max-w-6xl mx-auto">
-        {/* Title and Description */}
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">Get in Touch</h2>
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
@@ -13,63 +69,76 @@ const ContactUsPage = () => {
         </div>
 
         {/* Contact Form */}
-        <form className="bg-white p-6 rounded-lg shadow-md grid grid-cols-1 sm:grid-cols-2 gap-6">
-          {/* First Name and Last Name */}
-          <div className="mb-4">
-            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="firstName">
+        <form onSubmit={handleSubmit} className="bg-white p-8 rounded-xl shadow-lg grid grid-cols-1 sm:grid-cols-2 gap-6">
+          {/* First Name */}
+          <div>
+            <label className="block text-gray-700 text-sm font-semibold mb-2" htmlFor="firstName">
               First Name
             </label>
             <input
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="firstName"
               type="text"
-              placeholder="Your first name"
+              value={formData.firstName}
+              onChange={handleChange}
+              required
+              className="shadow border rounded w-full py-2 px-3 text-gray-700 focus:outline-none"
             />
           </div>
-          <div className="mb-4">
-            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="lastName">
+
+          {/* Last Name */}
+          <div>
+            <label className="block text-gray-700 text-sm font-semibold mb-2" htmlFor="lastName">
               Last Name
             </label>
             <input
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="lastName"
               type="text"
-              placeholder="Your last name"
+              value={formData.lastName}
+              onChange={handleChange}
+              required
+              className="shadow border rounded w-full py-2 px-3 text-gray-700 focus:outline-none"
             />
           </div>
 
-          {/* Email and Phone Number */}
-          <div className="mb-4">
-            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
+          {/* Email */}
+          <div>
+            <label className="block text-gray-700 text-sm font-semibold mb-2" htmlFor="email">
               Email
             </label>
             <input
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="email"
               type="email"
-              placeholder="Your email"
-            />
-          </div>
-          <div className="mb-4">
-            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="phone">
-              Phone Number
-            </label>
-            <input
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              id="phone"
-              type="tel"
-              placeholder="Your phone number"
+              value={formData.email}
+              onChange={handleChange}
+              required
+              className="shadow border rounded w-full py-2 px-3 text-gray-700 focus:outline-none"
             />
           </div>
 
-          {/* Select a Topic */}
-          <div className="mb-4 col-span-2">
-            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="topic">
+          {/* Phone Number */}
+          <div>
+            <label className="block text-gray-700 text-sm font-semibold mb-2" htmlFor="phone">
+              Phone Number
+            </label>
+            <input
+              id="phone"
+              type="tel"
+              value={formData.phone}
+              onChange={handleChange}
+              className="shadow border rounded w-full py-2 px-3 text-gray-700 focus:outline-none"
+            />
+          </div>
+
+          {/* Topic Selection */}
+          <div className="col-span-2">
+            <label className="block text-gray-700 text-sm font-semibold mb-2" htmlFor="topic">
               Select a Topic
             </label>
             <select
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="topic"
+              value={formData.topic}
+              onChange={handleChange}
+              className="shadow border rounded w-full py-2 px-3 text-gray-700 focus:outline-none"
             >
               <option>General Inquiry</option>
               <option>Support</option>
@@ -78,47 +147,38 @@ const ContactUsPage = () => {
             </select>
           </div>
 
-          {/* How Did You Hear About Us */}
-          <div className="mb-4 col-span-2">
-            <label className="block text-gray-700 text-sm font-bold mb-2">How did you hear about us?</label>
-            <div className="flex items-center space-x-4">
-              <div className="flex items-center">
-                <input type="radio" id="search" name="source" className="mr-2" />
-                <label htmlFor="search">Search Engine</label>
-              </div>
-              <div className="flex items-center">
-                <input type="radio" id="referral" name="source" className="mr-2" />
-                <label htmlFor="referral">Referral</label>
-              </div>
-              <div className="flex items-center">
-                <input type="radio" id="socialMedia" name="source" className="mr-2" />
-                <label htmlFor="socialMedia">Social Media</label>
-              </div>
-            </div>
-          </div>
-
           {/* Message */}
-          <div className="mb-4 col-span-2">
-            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="message">
+          <div className="col-span-2">
+            <label className="block text-gray-700 text-sm font-semibold mb-2" htmlFor="message">
               Message
             </label>
             <textarea
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="message"
               rows={5}
-              placeholder="Your message"
-            ></textarea>
+              value={formData.message}
+              onChange={handleChange}
+              required
+              className="shadow border rounded w-full py-2 px-3 text-gray-700 focus:outline-none"
+            />
           </div>
 
           {/* Submit Button */}
           <div className="text-center col-span-2">
             <button
-              className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 transition"
               type="submit"
+              disabled={loading}
+              className="bg-orange-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-orange-700 transition-colors duration-300 font-semibold text-lg"
             >
-              Send Message
+              {loading ? "Sending..." : "Send Message"}
             </button>
           </div>
+
+          {/* Response Message */}
+          {responseMessage && (
+            <div className="col-span-2 text-center text-green-600 font-semibold mt-4">
+              {responseMessage}
+            </div>
+          )}
         </form>
       </div>
     </section>

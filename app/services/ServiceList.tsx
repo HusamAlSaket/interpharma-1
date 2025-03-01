@@ -21,7 +21,7 @@ export default async function ServiceList() {
   const services = await getServices();
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-6 bg-gradient-to-br from-orange-50 to-gray-100">
+    <div id = "services-details"className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-6 bg-gradient-to-br from-orange-50 to-gray-100">
       {services.map(
         (service: { id: number; title: string; description: string }) => (
           <div

@@ -20,7 +20,7 @@ export default async function ProductList() {
   const products = await getProducts();
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-8 bg-gradient-to-br from-orange-50 via-white to-orange-100">
+    <div id="product-details" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-8 bg-gradient-to-br from-orange-50 via-white to-orange-100">
       {products.map(
         (product: {
           name: string;
