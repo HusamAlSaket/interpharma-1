@@ -1,0 +1,347 @@
+{
+    "services": [
+      {
+        "id": 1,
+        "title": "Pharmaceutical Development",
+        "description": "Up to date development quality standards, meeting local and international health authority requirements, including stability zone IV and IP. Our services include continuous updates to comply with regulatory changes, on-site supervision for validation and scale-up."
+      },
+      {
+        "id": 2,
+        "title": "Consultation",
+        "description": "We offer robust troubleshooting capabilities to support project success, alongside comprehensive IP assessment and detailed bioequivalence protocol evaluation."
+      },
+      {
+        "id": 3,
+        "title": "Chemical Analysis Testing",
+        "description": "We offer a comprehensive suite of chemical tests and secure Certificates of Analysis (COAs) using optimal analytical methods."
+      },
+      {
+        "id": 4,
+        "title": "In-Vitro Release and Permeability IVRT & IVPT",
+        "description": "As the regulators became more strict in evaluation of semi solid products, IVRT and IVPT became essential requirement in Drug product applications. We offer complete IVRT and IVPR performance tests in compliance with ICH EMA and USP requirements."
+      },
+      {
+        "id": 5,
+        "title": "Microbiology Testing",
+        "description": "We determine safe exposure thresholds for pharmaceutical substances to uphold patient safety standards."
+      },
+      {
+        "id": 6,
+        "title": "Permitted Daily Exposure (PDE) Report",
+        "description": "We offer a wide range of Microbiological tests and provide assistance in improving the microbiological environment for our partners, ensuring high-quality service at affordable prices."
+      },
+      {
+        "id": 7,
+        "title": "Pharmaceutical Comparative Dissolution Profiles",
+        "description": "For various solid dosage forms that include immediate, delayed, and sustained release dosage forms, using validated and calibrated dissolution apparatus I & II, with similarity calculation in compliance with USP, EMA and regional regulatory bodies requirements."
+      }
+    ],
+"products": [
+    {
+      "name": "Apixaban",
+      "category": "Anticoagulant",
+      "brand": "Eliquis",
+      "dosage": "Tablet",
+      "strength": "2.5, 5 mg",
+      "company": "Bristol Myers Squibb",
+      "image_url": "https://www.shutterstock.com/image-photo/apixaban-pill-anticoagulant-medication-used-600nw-1839229048.jpg"
+    },
+    {
+      "name": "Acyclovir",
+      "category": "Antiviral",
+      "brand": "Zovirax",
+      "dosage": "Powder for injection",
+      "strength": "500 mg",
+      "company": "GSK",
+      "image_url": "https://buzzrx.s3.amazonaws.com/gs/DrugItem_21727.JPG"
+    },
+    {
+      "name": "Adapalene/Benzoyl Peroxide",
+      "category": "Antiacne",
+      "brand": "Epiduo",
+      "dosage": "Gel",
+      "strength": "0.1/2.5%",
+      "company": "Galderma",
+      "image_url": "https://www.padagis.com/wp-content/uploads/2024/03/2G8-ADAPBPgelPump.png"
+    },
+    {
+      "name": "Azithromycin",
+      "category": "Antibiotic",
+      "brand": "Zithromax",
+      "dosage": "Tablet",
+      "strength": "500 mg",
+      "company": "Pfizer",
+      "image_url": "https://example.com/images/zithromax.jpg"
+    },
+    {
+      "name": "Crisaborole",
+      "category": "Atopic dermatitis",
+      "brand": "Eucrisa",
+      "dosage": "Ointment",
+      "strength": "2%",
+      "company": "Pfizer",
+      "image_url": "https://example.com/images/eucrisa.jpg"
+    },
+    {
+      "name": "Dapagliflozin",
+      "category": "Diabetes Mellitus",
+      "brand": "Forxiga",
+      "dosage": "Tablet",
+      "strength": "5, 10 mg",
+      "company": "AstraZeneca",
+      "image_url": "https://example.com/images/forxiga.jpg"
+    },
+    {
+      "name": "Empagliflozin",
+      "category": "Diabetes Mellitus",
+      "brand": "Jardiance",
+      "dosage": "Tablet",
+      "strength": "10, 25 mg",
+      "company": "Boehringer Ingelheim",
+      "image_url": "https://example.com/images/jardiance.jpg"
+    },
+    {
+      "name": "Ezetimibe/Atorvastatin",
+      "category": "Hypercholesterolemia",
+      "brand": "Atozet",
+      "dosage": "Tablet",
+      "strength": "10/10 mg, 10/20 mg, 10/40 mg",
+      "company": "MSD",
+      "image_url": "https://example.com/images/atozet.jpg"
+    },
+    {
+      "name": "Glimepiride",
+      "category": "Diabetes Mellitus",
+      "brand": "Amaryl",
+      "dosage": "Tablet",
+      "strength": "1, 2, 4 mg",
+      "company": "Sanofi Aventis",
+      "image_url": "https://example.com/images/amaryl.jpg"
+    },
+    {
+      "name": "Hydrocortisone",
+      "category": "Anti-inflammatory",
+      "brand": "Hydrocort",
+      "dosage": "Powder for injection",
+      "strength": "500 mg",
+      "company": "Abbott",
+      "image_url": "https://example.com/images/hydrocort.jpg"
+    },
+    {
+      "name": "Hydroxocobalamin",
+      "category": "Vitamin B12 deficiency",
+      "brand": "Cytobion",
+      "dosage": "Solution for injection",
+      "strength": "1mg/1ml",
+      "company": "Merck",
+      "image_url": "https://example.com/images/cytobion.jpg"
+    },
+    {
+      "name": "Levocarnitine",
+      "category": "Carnitine deficiency",
+      "brand": "Carnitor",
+      "dosage": "Oral solution",
+      "strength": "1g/10ml",
+      "company": "Leadiant",
+      "image_url": "https://example.com/images/carnitor.jpg"
+    },
+    {
+      "name": "Nebivolol",
+      "category": "Antihypertensive",
+      "brand": "Nebilet",
+      "dosage": "Tablet",
+      "strength": "2.5, 5 mg",
+      "company": "Menarini",
+      "image_url": "https://example.com/images/nebilet.jpg"
+    },
+    {
+      "name": "Perindopril",
+      "category": "Antihypertensive",
+      "brand": "Coversyl",
+      "dosage": "Tablet",
+      "strength": "5, 10 mg",
+      "company": "Servier",
+      "image_url": "https://example.com/images/coversyl.jpg"
+    },
+    {
+      "name": "Perindopril/Amlodipine",
+      "category": "Antihypertensive",
+      "brand": "Viacoram",
+      "dosage": "Tablet",
+      "strength": "5/5 mg, 5/10 mg, 10/10 mg",
+      "company": "Servier",
+      "image_url": "https://example.com/images/viacoram.jpg"
+    },
+    {
+      "name": "Ticagrelor",
+      "category": "Antiplatelet",
+      "brand": "Brilinta",
+      "dosage": "Tablet",
+      "strength": "60, 90 mg",
+      "company": "AstraZeneca",
+      "image_url": "https://example.com/images/brilinta.jpg"
+    },
+    {
+      "name": "Tolperisone",
+      "category": "Muscle Relaxant",
+      "brand": "Mydocalm",
+      "dosage": "Tablet",
+      "strength": "150 mg",
+      "company": "Labatec",
+      "image_url": "https://example.com/images/mydocalm.jpg"
+    },
+    {
+      "name": "Valsartan/Sacubitril",
+      "category": "Chronic Heart Failure",
+      "brand": "Entresto",
+      "dosage": "Tablet",
+      "strength": "50, 100, 200 mg",
+      "company": "Novartis",
+      "image_url": "https://example.com/images/entresto.jpg"
+    },
+      {
+        "name": "Valsartan/Amlodipine/HCTZ",
+        "category": "Antihypertensive",
+        "brand": "Exforge",
+        "dosage": "Tablet",
+        "strength": "5/160/25 mg, 10/160/12.5 mg",
+        "company": "Novartis",
+        "image_url": "https://example.com/images/exforge.jpg"
+      },
+      {
+        "name": "Vancomycin",
+        "category": "Antibiotic",
+        "brand": "Vancomycin",
+        "dosage": "Powder for injection",
+        "strength": "500, 1000 mg",
+        "company": "Abbott",
+        "image_url": "https://example.com/images/vancomycin.jpg"
+      },
+      {
+        "name": "Vitamin D3",
+        "category": "Vitamin D deficiency",
+        "brand": "Multi Brands",
+        "dosage": "Tablet",
+        "strength": "5K, 10K, 50K mg",
+        "company": "N.A",
+        "image_url": "https://example.com/images/vitamin-d3.jpg"
+      },
+      {
+        "name": "Paracetamol/Homatropine",
+        "category": "Gastro-Intestinal",
+        "brand": "Riabasam",
+        "dosage": "Tablet",
+        "strength": "350/4 mg",
+        "company": "SDI",
+        "image_url": "https://example.com/images/riabasam.jpg"
+      },
+      {
+        "name": "Chlordiazepoxide/Clidinium",
+        "category": "Treat Stomach",
+        "brand": "Librax",
+        "dosage": "Tablet",
+        "strength": "5/2.5 mg",
+        "company": "Bausch Health, Canada INC.",
+        "image_url": "https://example.com/images/librax.jpg"
+      },
+      {
+        "name": "Empagliflozin/Metformin",
+        "category": "Diabetes Mellitus",
+        "brand": "Synjardy",
+        "dosage": "Tablet",
+        "strength": "12.5/800 mg, 5/800 mg, 12.5/1000 mg, 5/1000 mg",
+        "company": "Boehringer Ingel",
+        "image_url": "https://example.com/images/synjardy.jpg"
+      },
+      {
+        "name": "Linagliptin",
+        "category": "Diabetes Mellitus",
+        "brand": "Trajenta",
+        "dosage": "Tablet",
+        "strength": "5 mg",
+        "company": "Boehringer Ingel",
+        "image_url": "https://example.com/images/trajenta.jpg"
+      },
+      {
+        "name": "Empagliflozin/Linagliptin",
+        "category": "Diabetes Mellitus",
+        "brand": "Glyxambi",
+        "dosage": "Tablet",
+        "strength": "10/5 mg, 25/5 mg",
+        "company": "Boehringer Ingel",
+        "image_url": "https://example.com/images/glyxambi.jpg"
+      },
+      {
+        "name": "Ezetimibe/Rosuvastatin",
+        "category": "Hypercholesterolemia",
+        "brand": "N.A.",
+        "dosage": "Tablet",
+        "strength": "10/10 mg, 10/20 mg, 10/40 mg",
+        "company": "N.A.",
+        "image_url": "https://example.com/images/na.jpg"
+      },
+      {
+        "name": "Omeprazole/Sodium Bicarbonate",
+        "category": "Anti-ulcer",
+        "brand": "Zegerid",
+        "dosage": "Capsule",
+        "strength": "40/1100 mg",
+        "company": "Valeant Pharmaceuticals North America LLC",
+        "image_url": "https://example.com/images/zegerid.jpg"
+      },
+      {
+        "name": "Empagliflozin/Linagliptin XR",
+        "category": "Diabetes Mellitus",
+        "brand": "Glyxambi XR",
+        "dosage": "Tablet",
+        "strength": "10/5/1000 mg, 25/5/1000 mg",
+        "company": "Boehringer Ingel",
+        "image_url": "https://example.com/images/glyxambi-xr.jpg"
+      },
+      {
+        "name": "Empagliflozin/Metformin XR",
+        "category": "Diabetes Mellitus",
+        "brand": "Synjardy XR",
+        "dosage": "Tablet",
+        "strength": "10/5/1000 mg, 25/5/1000 mg",
+        "company": "Boehringer Ingel",
+        "image_url": "https://example.com/images/synjardy-xr.jpg"
+      },
+      {
+        "name": "Linagliptin/Metformin XR",
+        "category": "Diabetes Mellitus",
+        "brand": "Jentadueto XR",
+        "dosage": "Tablet",
+        "strength": "10/5/1000 mg, 25/5/1000 mg",
+        "company": "Boehringer Ingel",
+        "image_url": "https://example.com/images/jentadueto-xr.jpg"
+      },
+      {
+        "name": "Empagliflozin/Linagliptin/Metformin XR",
+        "category": "Diabetes Mellitus",
+        "brand": "Trijardy XR",
+        "dosage": "Tablet",
+        "strength": "10/5/1000 mg, 25/5/1000 mg",
+        "company": "Boehringer Ingel",
+        "image_url": "https://example.com/images/trijardy-xr.jpg"
+      },
+      {
+        "name": "Bempedoic acid",
+        "category": "Hypercholesterolemia",
+        "brand": "Nilemdo",
+        "dosage": "Tablet",
+        "strength": "180 mg",
+        "company": "Daiichi Sankyo",
+        "image_url": "https://example.com/images/nilemdo.jpg"
+      },
+      {
+        "name": "Ezetimibe/Bempedoic acid",
+        "category": "Hypercholesterolemia",
+        "brand": "N.A.",
+        "dosage": "Tablet",
+        "strength": "10/180 mg",
+        "company": "N.A.",
+        "image_url": ""
+      }
+    ]
+  }
