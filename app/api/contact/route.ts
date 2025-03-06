@@ -18,8 +18,9 @@ export async function POST(req: Request) {
     });
 
     await transporter.sendMail({
-      from: `"InternPharma" <${process.env.EMAIL_USER as string}>`,
+      from: `${firstName} ${lastName} <${process.env.EMAIL_USER as string}>`,
       to: "ghostsora101@gmail.com",
+      replyTo: email, // Allows replying to the user's email
       subject: `New Contact Form Submission: ${topic}`,
       text: `From: ${firstName} ${lastName} (${email}, ${phone})\n\nMessage:\n${message}`,
     });

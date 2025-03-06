@@ -34,10 +34,18 @@ async function getService(id: string) {
 interface Params {
   id: string;
 }
+interface ServiceDetailsProps {
+  params: any; // Keeping params as any
+}
 
 // ServiceDetails component
-export default async function ServiceDetails({ params }: { params: Params }) {
-  const service = await getService(params.id);
+export default async function ServiceDetails({ params }: ServiceDetailsProps) {
+  // Await params to ensure it's resolved before accessing its properties
+  const { id } = await params;
+
+  if (!id) throw new Error("Invalid Params");
+  
+  const service = await getService(id);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-100">

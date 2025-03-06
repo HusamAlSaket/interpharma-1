@@ -3,7 +3,7 @@
   import { Suspense } from "react";
   import AboutHero from "../components/AboutHero";
   import Image from "next/image";
-  
+  import Link from "next/link";
   export default function AboutUs() {
     return (
       <>
@@ -144,9 +144,9 @@
                 Join our growing network of partners in the pharmaceutical industry 
                 and benefit from our expertise in research and development.
               </p>
-              <button className="bg-white text-orange-600 hover:bg-orange-50 px-8 py-3 rounded-full font-medium shadow-lg transition-all duration-300 hover:shadow-xl">
+              <Link href="/contact-us" className="bg-white text-orange-600 hover:bg-orange-50 px-8 py-3 rounded-full font-medium shadow-lg transition-all duration-300 hover:shadow-xl">
                 Contact Us Today
-              </button>
+              </Link>
             </div>
           </div>
           

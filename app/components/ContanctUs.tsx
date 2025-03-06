@@ -29,7 +29,7 @@ const ContactUs = () => {
             <h3 className="text-2xl font-bold text-white mb-4">Phone</h3>
             <div className="w-10 h-1 bg-orange-200 mb-4 rounded-full"></div>
             <p className="text-gray-300">
-              +962 (6) 123 4567
+              +(962) 6515 1133
             </p>
           </div>
           
