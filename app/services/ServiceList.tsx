@@ -3,7 +3,7 @@ import Link from "next/link";
 // Get All Services
 async function getServices() {
   await new Promise((resolve) => setTimeout(resolve, 1000));
-  const res = await fetch("http://localhost:4000/services", {
+  const res = await fetch(`${process.env.API_BASE_URL}/services`, {
     next: {
       revalidate: 0,
     },

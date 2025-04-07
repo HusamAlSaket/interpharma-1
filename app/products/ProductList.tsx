@@ -2,7 +2,7 @@ import Link from "next/link";
 
 // Get All Products
 async function getProducts() {
-  const res = await fetch("http://localhost:4000/products", {
+  const res = await fetch(`${process.env.API_BASE_URL}/products`, {
     next: {
       revalidate: 0,
     },

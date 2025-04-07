@@ -7,7 +7,7 @@ export const dynamicParams = true;
 
 // Preload the fetch of the services during build time instead of runtime
 export async function generateStaticParams() {
-  const res = await fetch("http://localhost:4000/services/");
+  const res = await fetch(`${process.env.API_BASE_URL}/services/`);
   const services = await res.json();
 
   return services.map((service: { id: number }) => ({
@@ -17,7 +17,7 @@ export async function generateStaticParams() {
 
 // Get the Service id
 async function getService(id: string) {
-  const res = await fetch("http://localhost:4000/services/" + id, {
+  const res = await fetch(`${process.env.API_BASE_URL}/services/${id}`, {
     next: {
       revalidate: 10,
     },
@@ -44,7 +44,7 @@ export default async function ServiceDetails({ params }: ServiceDetailsProps) {
   const { id } = await params;
 
   if (!id) throw new Error("Invalid Params");
-  
+
   const service = await getService(id);
 
   return (
